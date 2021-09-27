@@ -1,0 +1,21 @@
+olee3aed3aemu8aina8zeiraeShaibah
+
+
+
+    java -Djarmode=layertools -jar .\demoguarani-0.0.1-SNAPSHOT.jar list
+
+    java -Djarmode=layertools -jar .\demoguarani-0.0.1-SNAPSHOT.jar extract
+	
+	
+	
+docker run --name pg13 -p 5432:5432 -e POSTGRES_PASSWORD=test2021 -v pgdata_test:/var/lib/postgresql/data -d postgres:13.4-alpine
+
+docker run --name pg13_2 -p 5431:5432 -e POSTGRES_PASSWORD=test2021 -e POSTGRES_USER=username -e POSTGRES_DB=bdd -v pgdata_test_2:/var/lib/postgresql/data -d postg
+
+
+drop table if exists message;
+CREATE TABLE message(
+   id SERIAL PRIMARY KEY,
+   message VARCHAR NOT NULL
+);
+insert into message (id, message) values(1, 'Hello World !!!');
